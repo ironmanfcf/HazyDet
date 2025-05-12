@@ -495,30 +495,4 @@ The depth map required for training can be obtained through [Metic3D](https://gi
 
 If you want to use our depth data, please download it and place it in the specified path. For convenience in storage and viewing, we save relative depth in PNG image format and the maximum depth in text format, but we use absolute depth during training.  
 
-## Acknowledgement
-We are grateful to the Tianjin Key Laboratory of Visual Computing and Intelligent Perception (VCIP) for providing essential resources. Our sincere appreciation goes to Professor Pengfei Zhu and the dedicated AISKYEYE team at Tianjin University for their invaluable support with data, which has been crucial to our research efforts. We also deeply thank Xianghui Li, Yuxin Feng, and other researchers for granting us access to their datasets, significantly advancing and promoting our work in this field. Additionally, our thanks extend to [Metric3D](https://github.com/YvanYin/Metric3D) for its contributions to the methodology presented in this article. 
 
-
-## Citation
-
-If you use this toolbox or benchmark in your research, please cite this project.
-
-```bibtex
-@article{feng2024HazyDet,
-	title={HazyDet: Open-source Benchmark for Drone-view Object Detection with Depth-cues in Hazy Scenes}, 
-	author={Feng, Changfeng and Chen, Zhenyuan and Kou, Renke and Gao, Guangwei and Wang, Chunping and Li, Xiang and Shu, Xiangbo and Dai, Yimian and Fu, Qiang and Yang, Jian},
-	year={2024},
-	journal={arXiv preprint arXiv:2409.19833},
-}
-
-@article{zhu2021detection,
-  title={Detection and tracking meet drones challenge},
-  author={Zhu, Pengfei and Wen, Longyin and Du, Dawei and Bian, Xiao and Fan, Heng and Hu, Qinghua and Ling, Haibin},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  volume={44},
-  number={11},
-  pages={7380--7399},
-  year={2021},
-  publisher={IEEE}
-}
-```
