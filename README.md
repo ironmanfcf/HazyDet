@@ -469,12 +469,7 @@ pip install -U ninja scikit-image --no-input
 python setup.py develop
 ```
 
-**Note**: make sure you have `cd` to the root directory of `HazyDet`
 
-```shell
-$ git clone git@github.com:GrokCV/HazyDet.git
-$ cd HazyDet
-```
 
 ### Training
 ```shell
