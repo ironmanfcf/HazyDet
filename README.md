@@ -15,11 +15,11 @@ This repository is the official implementation of HazyDet
     - [Inference](#inference)
     - [Depth Maps](#depth-maps)
 - [Acknowledgement](#acknowledgement)
-- [Citation](#citation)
+
 
 ## HazyDet
 
-![HazyDet](./docs/dataset_samples.jpg)
+![HazyDet](./docs/dataset_pipeline_sample.jpg)
 
 You can **download** our HazyDet dataset from [**Baidu Netdisk**](https://pan.baidu.com/s/1KKWqTbG1oBAdlIZrTzTceQ?pwd=grok) or [**OneDrive**](https://1drv.ms/f/s!AmElF7K4aY9p83CqLdm4N-JSo9rg?e=H06ghJ).<br>
 
@@ -39,8 +39,9 @@ HazyDet
     |-- clean images
     |-- hazy images
     |-- labels
-|-- RDDTS
-    |-- hazy images
+|-- real world 
+    |-- training
+    |-- testing	
     |-- labels
 ```
 
@@ -436,7 +437,7 @@ All the weight files in the model zoo can be accessed on [Baidu Cloud](https://p
 
 
 ## DeCoDet
-![HazyDet](./docs/network.jpg)
+![HazyDet](./docs/Fig_network.jpg)
 
 ### Installation
 
