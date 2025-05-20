@@ -56,268 +56,29 @@ All the weight files in the model zoo can be accessed on [Baidu Cloud](https://p
 ### Detectors
 
 
-<table>
-    <tr>
-        <td>Model</td>
-        <td>Backbone</td> 
-        <td>#Params (M)</td>
-        <td>GFLOPs</td>
-        <td>mAP on<br>Test-set</td> <!-- 使用 <br> 标签换行 -->
-        <td>mAP on<br>RDDTS</td>
-        <td>Config</td>
-        <td>Weight</td>        
-    </tr>
-    <tr>
-        <td>One Stage</td>
-        <td></td> 
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>YOLOv3</td>
-        <td>Darknet53</td>
-        <td>61.63</td>
-        <td>20.19</td>
-        <td>35.0</td>
-        <td>19.2</td>
-        <td><a href="./configs/yolov3/yolov3_d53_8xb8-ms-416-273e_hazydet.py">config</a></td>
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>GFL</td>
-        <td>ResNet50</td> 
-        <td>32.26</td>
-        <td>198.65</td>
-        <td>36.8</td>
-        <td>13.9</td>
-        <td><a href="./configs/gfl/gfl_r50_fpn_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>YOLOX</td>
-        <td>CSPDarkNet</td> 
-        <td>8.94</td>
-        <td>13.32</td>
-        <td>42.3</td>
-        <td>24.7</td>
-        <td><a href="./configs/yolox/yolox_s_8xb8-300e_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>RepPoints</td>
-        <td>ResNet50</td> 
-        <td>36.83</td>
-        <td>184.32</td>
-        <td>43.8</td>
-        <td>21.3</td>
-        <td><a href="./configs/reppoints/reppoints-moment_r50_fpn-gn_head-gn_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>FCOS</td>
-        <td>ResNet50</td> 
-        <td>32.11</td>
-        <td>191.48</td>
-        <td>45.9</td>
-        <td>22.8</td>
-        <td><a href="./configs/fcos/fcos_r50_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>Centernet</td>
-        <td>ResNet50</td> 
-        <td>32.11</td>
-        <td>191.49</td>
-        <td>47.2</td>
-        <td>23.8</td>
-        <td><a href="./configs/centernet/centernet-update_r50-caffe_fpn_ms-1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>ATTS</td>
-        <td>ResNet50</td> 
-        <td>32.12</td>
-        <td>195.58</td>
-        <td>50.4</td>
-        <td>25.1</td>
-        <td><a href="./configs/atts/atss_r50_fpn_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>DDOD</td>
-        <td>ResNet50</td> 
-        <td>32.20</td>
-        <td>173.05</td>
-        <td>50.7</td>
-        <td>26.1</td>
-        <td><a href="./configs/ddod/ddod_r50_fpn_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>VFNet</td>
-        <td>ResNet50</td> 
-        <td>32.89</td>
-        <td>187.39</td>
-        <td>51.1</td>
-        <td>25.6</td>
-        <td><a href="./configs/vfnet/vfnet_r50_fpn_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>TOOD</td>
-        <td>ResNet50</td> 
-        <td>32.02</td>
-        <td>192.51</td>
-        <td>51.4</td>
-        <td>25.8</td>
-        <td><a href="./configs/tood/tood_r50_fpn_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>Two Stage</td>
-        <td></td> 
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Sparse RCNN</td>
-        <td>ResNet50</td> 
-        <td>108.54</td>
-        <td>147.45</td>
-        <td>27.7</td>
-        <td>10.4</td>
-        <td><a href="./configs/sparse_rcnn/sparse-rcnn_r50_fpn_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>Dynamic RCNN</td>
-        <td>ResNet50</td> 
-        <td>41.35</td>
-        <td>201.72</td>
-        <td>47.6</td>
-        <td>22.5</td>
-        <td><a href="./configs/dynamic_rcnn/dynamic-rcnn_r50_fpn_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>Faster RCNN</td>
-        <td>ResNet50</td> 
-        <td>41.35</td>
-        <td>201.72</td>
-        <td>48.7</td>
-        <td>23.6</td>
-        <td><a href="./configs/faster_rcnn/faster-rcnn_r50_fpn_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>Libra RCNN</td>
-        <td>ResNet50</td> 
-        <td>41.62</td>
-        <td>209.92</td>
-        <td>49.0</td>
-        <td>23.7</td>
-        <td><a href="./configs/libra_rcnn/libra-faster-rcnn_r50_fpn_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>Grid RCNN</td>
-        <td>ResNet50</td> 
-        <td>64.46</td>
-        <td>317.44</td>
-        <td>50.5</td>
-        <td>25.2</td>
-        <td><a href="./configs/grid_rcnn/grid-rcnn_r50_fpn_gn-head_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>Cascade RCNN</td>
-        <td>ResNet50</td> 
-        <td>69.15</td>
-        <td>230.40</td>
-        <td>51.6</td>
-        <td>26.0</td>
-        <td><a href="./configs/cascade_rcnn/cascade-rcnn_r50_fpn_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>End-to-End</td>
-        <td></td> 
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Conditional DETR</td>
-        <td>ResNet50</td> 
-        <td>43.55</td>
-        <td>94.17</td>
-        <td>30.5</td>
-        <td>11.7</td>
-        <td><a href="./configs/conditional_detr/conditional-detr_r50_8xb2-50e_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>DAB DETR</td>
-        <td>ResNet50</td> 
-        <td>43.70</td>
-        <td>97.02</td>
-        <td>31.3</td>
-        <td>11.7</td>
-        <td><a href="./configs/dab_detr/dab-detr_r50_8xb2-50e_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>Deform DETR</td>
-        <td>ResNet50</td> 
-        <td>40.01</td>
-        <td>192.51</td>
-        <td>51.9</td>
-        <td>26.5</td>
-        <td><a href="./configs/deform_detr/deformable-detr_r50_16xb2-50e_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>Plug-and-Play</td>
-        <td></td> 
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>FCOS-DeCoDet</td>
-        <td>ResNet50</td> 
-        <td>34.62</td>
-        <td>225.37</td>
-        <td>47.4</td>
-        <td>24.3</td>
-        <td><a href="./configs/DeCoDet/DeCoDet_r50_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-    <tr>
-        <td>VFNet-DeCoDet</td>
-        <td>ResNet50</td> 
-        <td>34.61</td>
-        <td>249.91</td>
-        <td>51.5</td>
-        <td>25.9</td>
-        <td><a href="./configs/DeCoDet/DeCoDet_r50_1x_hazydet.py">config</a></td> <!-- 新增链接 -->
-        <td><a href="https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok">weight</a></td>
-    </tr>
-</table>
+
+| Model              | Backbone     | #Params (M) | GFLOPs | mAP on<br>Synthetic | mAP on<br>Real-world | Config | Weight |
+|--------------------|--------------|-------------|--------|---------------------|----------------------|--------|--------|
+| **One Stage**      |              |             |        |                     |                      |        |        |
+| YOLOv3             | Darknet53    | 61.63       | 20.19  | 35.0                | 30.7                 | [config](./configs/yolov3/yolov3_d53_8xb8-ms-416-273e_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| GFL                | ResNet50     | 32.26       | 198.65 | 36.8                | 32.5                 | [config](./configs/gfl/gfl_r50_fpn_1x_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| YOLOX              | CSPDarkNet   | 8.94        | 13.32  | 42.3                | 35.4                 | [config](./configs/yolox/yolox_s_8xb8-300e_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| FCOS               | ResNet50     | 32.11       | 191.48 | 45.9                | 32.7                 | [config](./configs/fcos/fcos_r50_1x_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| VFNet              | ResNet50     | 32.71       | 184.32 | 49.5                | 35.6                 | [config](./configs/vfnet/vfnet_r50_fpn_1x_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| ATTS               | ResNet50     | 32.12       | 195.58 | 50.4                | 36.4                 | [config](./configs/atts/atss_r50_fpn_1x_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| DDOD               | ResNet50     | 32.20       | 173.05 | 50.7                | 37.1                 | [config](./configs/ddod/ddod_r50_fpn_1x_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| TOOD               | ResNet50     | 32.02       | 192.51 | 51.4                | 36.7                 | [config](./configs/tood/tood_r50_fpn_1x_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| **Two Stage**      |              |             |        |                     |                      |        |        |
+| Faster RCNN        | ResNet50     | 41.35       | 201.72 | 48.7                | 33.4                 | [config](./configs/faster_rcnn/faster-rcnn_r50_fpn_1x_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| Libra RCNN         | ResNet50     | 41.62       | 209.92 | 49.0                | 34.5                 | [config](./configs/libra_rcnn/libra-faster-rcnn_r50_fpn_1x_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| Grid RCNN          | ResNet50     | 64.46       | 317.44 | 50.5                | 35.2                 | [config](./configs/grid_rcnn/grid-rcnn_r50_fpn_gn-head_1x_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| Cascade RCNN       | ResNet50     | 69.15       | 230.40 | <u>51.6</u>         | <u>37.2</u>          | [config](./configs/cascade_rcnn/cascade-rcnn_r50_fpn_1x_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| **End-to-End**     |              |             |        |                     |                      |        |        |
+| Conditional DETR        | ResNet50     | 43.55       | 91.47 | 30.5            |25.8                | [config](./configs/conditional_detr/conditional-detr_r50_16xb2-50e_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| DAB DETR        | ResNet50     | 43.7       | 91.02 | 31.3                | 27.2                | [config](./configs/dab_detr/dab-detr_r50_16xb2-50e_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| Deform DETR        | ResNet50     | 40.01       | 203.11 | 51.5                | 36.9                 | [config](./configs/deform_detr/deformable-detr_r50_16xb2-50e_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
+| **DeCoDet**  |              |             |        |                     |                      |        |        |
+| **DeCoDet (Ours)** | ResNet50     | 34.62       | 225.37 | **52.0**            | **38.7**             | [config](./configs/DeCoDet/DeCoDet_r50_1x_hazydet.py) | [weight](https://pan.baidu.com/s/1EEX_934Q421RkHCx53akJQ?pwd=grok) |
 
 
 ### Dehazing
